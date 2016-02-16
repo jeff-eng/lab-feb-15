@@ -32,3 +32,13 @@ function sumAndMultiply(num1, num2, num3) {
   console.log('The numbers ' + num1 + ' and ' + num2 + ' and ' + num3 + ' have a product of ' + product + '.');
   return [summation, product];
 }
+
+function sumArray(array) {
+  var result = 0;
+  for (var i = 0; i < array.length; i++) {
+    result += array[i];
+  }
+  console.table(array);
+  console.log(array + ' was passed in as an array of numbers, and ' + result + ' is their sum.');
+  return result;
+}
