@@ -42,3 +42,13 @@ function sumArray(array) {
   console.log(array + ' was passed in as an array of numbers, and ' + result + ' is their sum.');
   return result;
 }
+
+function multiplyArray(array) {
+  var result = 1;
+  for (var i = 0; i < array.length; i++) {
+    result *= array[i];
+  }
+  console.table(array);
+  console.log('The numbers ' + array + ' have a product of ' + result + '.');
+  return result;
+}
