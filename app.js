@@ -12,3 +12,8 @@
 //   // This error-correction can stay as an alert
 //   alert('Please give a yes or no answer.');
 // }
+
+function sum(num1, num2) {
+  var result = num1 + num2;
+  console.log('The sum of ' + num1 + ' and ' + num2 + ' is ' + result + '.');
+}
